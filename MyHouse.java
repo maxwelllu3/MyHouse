@@ -18,6 +18,9 @@ public class MyHouse
     private Square doorhalf1;
     private Square doorhalf2;
     private Circle doorknob;
+    private Tree pineTree;
+    private Circle sun;
+    private Window window;
     
 
     /**
@@ -35,7 +38,11 @@ public class MyHouse
         doorhalf1 = new Square();
         doorhalf2 = new Square();
         doorknob = new Circle();
+        sun = new Circle();
+        window = new Window();
         
+        //create the pineTree
+        pineTree = new Tree(0, 0);
     }
 
     /**
@@ -226,5 +233,12 @@ public class MyHouse
         doorknob.moveRight();
         doorknob.moveRight();
         doorknob.moveVertical(10);
+        
+        //Set up the sun
+        sun.changeColor("yellow");
+        sun.changeSize(50);
+        sun.makeVisible();
+        
+        
     }
 }
