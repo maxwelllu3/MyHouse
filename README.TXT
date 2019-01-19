@@ -1,7 +1,7 @@
-Project "shapes"
-Authors: Michael Kölling and David J. Barnes
+Project "MyHouse"
+Author: Maxwell B. Lu
 
-This project is part of the material for the book
+This project is based on "shapes" by David J. Barnes and Michael Kolling
 
    Objects First with Java - A Practical Introduction using BlueJ
    David J. Barnes and Michael Kolling
